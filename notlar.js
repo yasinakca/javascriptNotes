@@ -97,5 +97,11 @@
     - concat => iki veya daha fazla arrayi birlestirir  array1.concat(array2)
     - include => parametre olarak verilen degerin arrayde olup olmadıgını boolean doner
     - reverse => diziyi tersine cevirir
-*/
 
+    - slice(?param1,?param2) => optional olarak verilen parametler arası arrayin elemanlarini
+    yeni bir array olarak doner. Mevcut array uzerinde degisiklik yapmaz.
+    - splice(start,?deleteCount,itemss) => array icindeki mevcut ogeleri kaldırarak veya 
+    degistirerek ve/veya uzerine yeni ogeler ekleyerek arrayin icerigini degistirir.
+
+    
+*/
